@@ -5,10 +5,15 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.4.1</version>
+    </parent>
 
     <groupId>com.dionext</groupId>
     <artifactId>ex-java-tech-projects</artifactId>
-    <version>0.0.1</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>ex-prog-principles</module>
@@ -18,6 +23,8 @@
     <properties>
         <java.version>23</java.version>
         <spring-boot.version>3.4.1</spring-boot.version>
+        <spring.boot.maven.plugin.version>3.4.1</spring.boot.maven.plugin.version>
+        <spring-ai.version>1.0.0-M4</spring-ai.version>
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
